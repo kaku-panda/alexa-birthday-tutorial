@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "これはユーザーのお誕生日までの日数を教えるためのスキルです",
+          "examplePhrases": [
+            "アレクサ，お誕生日ツールを開いて",
+            "〇〇年〇〇月〇〇日"
+          ],
+          "keywords": [
+            "誕生日",
+            "バースデー",
+            "Birthday"
+          ],
+          "name": "お誕生日ツール",
+          "description": "1．「アレクサ，お誕生日ツールを開いて」と声をかけてください\n2．その後，誕生日を「〇〇年〇〇月〇〇日」と教えてあげてください\n3．以降，「アレクサ，お誕生日ツールを開いて」と声をかけるとお誕生日までの日数を教えてくれます\n4．お誕生日に尋ねるとお祝いの言葉を話してくれます",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "updatesDescription": "",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "ja-JP",
+            "language": "ja"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "",
+      "category": "SELF_IMPROVEMENT",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "JP"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:126233167896:function:5df6f494-09b7-40d1-b678-ab7e4da08b97:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:126233167896:function:5df6f494-09b7-40d1-b678-ab7e4da08b97:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:126233167896:function:5df6f494-09b7-40d1-b678-ab7e4da08b97:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:126233167896:function:5df6f494-09b7-40d1-b678-ab7e4da08b97:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "ja-JP": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": true
+    }
+  }
+}
