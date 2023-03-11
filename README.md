@@ -7,4 +7,4 @@ https://developer.amazon.com/ja-JP/alexa/alexa-skills-kit/get-deeper/tutorials-c
 ↓ 利用規約 <br>
 
 ↓ プライバシーポリシー <br>
-https://kaku-panda.github.io/alexa-birthday-tutorial/privacy-policy/ja
+https://kaku-panda.github.io/alexa-birthday-tutorial/privacy-policy/index.html
